@@ -49,7 +49,7 @@ Follow these instructions to get the project running on your local machine.
 First, clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/fauzantaufiq1211/console-sovereign-ai.git](https://github.com/fauzantaufiq1211/console-sovereign-ai.git)
+git clone https://github.com/fauzantaufiq1211/console-sovereign-ai.git
 cd console-sovereign-ai
 ```
 
