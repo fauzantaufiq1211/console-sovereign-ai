@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Link } from "next/link";
 import { Switch } from "@/components/ui/switch";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
@@ -191,9 +192,12 @@ export default function ConsoleSovereignAI() {
       <header className="sticky top-0 z-30 border-b bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2">
-            <Shield className="h-5 w-5" />
-            <span className="font-semibold">Console Sovereign AI</span>
-            <Badge variant="secondary" className="ml-2">hi‑fi v0.9</Badge>
+          {/* Bungkus Ikon dan Teks dengan Link */}
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Shield className="h-5 w-5" />
+          <span className="font-semibold">Console Sovereign AI</span>
+          </Link>
+          <Badge variant="secondary" className="ml-2">hi‑fi v0.9</Badge>
           </div>
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <Globe className="h-4 w-4" /> Indonesia / On‑shore
